@@ -2,7 +2,7 @@
 
 int main() {
     unsigned int a;
-    scanf("%d",&a);
+    scanf("%u",&a);
     printf("%u",_builtin_clz(a));
     return 0;
 }
