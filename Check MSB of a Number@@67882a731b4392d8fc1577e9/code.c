@@ -3,7 +3,7 @@
 int main() {
     int a;
     scanf("%d",&a);
-    if(a&128){
+    if(a&a){
         printf("Set");
     }
     else{
