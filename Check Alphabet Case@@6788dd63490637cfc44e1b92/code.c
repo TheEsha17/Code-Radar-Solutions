@@ -1,8 +1,8 @@
 #include <stdio.h>
 
 int main() {
-    char a[1];
-    scanf("%c", &a);
+    char a[100];
+    scanf("%s", a);
     if (isupper(a)){
         printf("Uppercase");
     }    
