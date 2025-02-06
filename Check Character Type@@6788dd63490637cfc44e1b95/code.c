@@ -1,4 +1,4 @@
-lude  <stdio.h>
+lude <stdio.h>
 main() {
     char ch;
     scanf("%c",&ch);
