@@ -1,15 +1,15 @@
 #include <stdio.h>
 
 int main() {
-    char a;
-    scanf("%c",&a);
-    if(a="a" || a="e"||a="i"|| a="o"|| a="u"){
+    char ch;
+    scanf("%c",&ch);
+    if(ch="a" || ch="e"||ch="i"|| ch="o"|| ch="u" || ch="A"||ch="E" || ch="I" || ch="O" || ch="u"){
         printf("Vowel");
     }
-    else if((a>="A" && a<="Z") || (a>="a" && a<="z")){
+    else if((ch>="A" && ch<="Z") || (ch>="a" && ch<="z")){
         printf("Consonant");
     }
-    else if(a>=0 && a<=9){
+    else if(ch>=0 && ch<=9){
         printf("Digit");
     }
     else{
