@@ -1,20 +1,20 @@
 #include <stdio.h>
 int main() {
-    int a,b;
+    float a,b;
     char c;
-    scanf("%d %d",&a,&b);
+    scanf("%f %f",&a,&b);
     scanf(" %c",&c);
     if(c=='+'){
-        printf("%d",a+b);
+        printf("%f",a+b);
     }
     else if(c=='-'){
-        printf("%d",a-b);
+        printf("%f",a-b);
     }
     else if(c=='*'){
-        printf("%d",a*b);
+        printf("%f",a*b);
     }
     else if(c=='/'){
-        printf("%d",a/b);
+        printf("%f",a/b);
     }
     return 0;
 }
