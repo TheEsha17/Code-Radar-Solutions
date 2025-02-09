@@ -2,7 +2,7 @@
 #include <math.h>
 int main() {
     int a,b,result;
-    scanf{"%d %d",&a,&b};
+    scanf("%d %d",&a,&b);
     result=(int)pow(b,2);
     if(a==result){
         printf("Yes");
