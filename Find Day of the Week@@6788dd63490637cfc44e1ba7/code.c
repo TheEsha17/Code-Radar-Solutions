@@ -3,7 +3,7 @@
 int main() {
    int a;
    scanf("%d",&a);
-    switch (a){
+    switch (a) {
         case 1: 
         printf("Monday");
         break;
@@ -11,7 +11,7 @@ int main() {
         printf("Tuesday");
         break;
         case 3:
-        print("Wednesday");
+        printf("Wednesday");
         break;
         case 4:
         printf("Thursday");
