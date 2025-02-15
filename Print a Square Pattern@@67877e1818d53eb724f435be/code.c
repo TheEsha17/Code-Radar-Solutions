@@ -1,7 +1,7 @@
 int main(){
 
     int a,i;
-    scanf("%",&a);
+    scanf("%d",&a);
     for(i=1;i<=a;i++){
         printf("* ");
 
