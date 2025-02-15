@@ -2,7 +2,7 @@
 int main() {
     int a;
     scanf("%d",&a);
-    if (num == 0) {
+    if (a == 0) {
         printf("No set");
     } else {
         int lowest_set_bit = num & -num;
