@@ -4,7 +4,6 @@ int main(){
     char symbol;
     scanf("%d",&a);
 
-    printf("Enter the symbol: ");
     scanf("%c", &symbol);
     for(i=1;i<=a;i++){
         for(j=1;j<=i;j++){
