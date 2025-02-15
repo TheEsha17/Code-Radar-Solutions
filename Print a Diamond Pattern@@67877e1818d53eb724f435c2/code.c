@@ -3,14 +3,17 @@ int main(){
     int a,i,j;
     scanf("%d",&a);
     for(i=1;i<=a+1;i++){
-        for(j=1;j<=a-1;j++){
-            if(i==1 || i==a || j==1 || j==a){
+        for(j=1;j<=a-i;j++){
+            printf(" ");
+        }
+        for(j=1;j<=2*i-1;j++){
+            if(j==1 || j==2*i-1){
+
                 printf("*");
             }
             else{
                 printf(" ");
             }
-
         }
         printf("\n");
 
