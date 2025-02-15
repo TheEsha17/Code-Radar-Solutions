@@ -1,9 +1,9 @@
 #include <stdio.h>
 int main(){
-    int a,i,j,num=0;
+    int a,i,j,num;
     scanf("%d",&a);
     for(i=1;i<=a;i++){
-        if(num%2==0){
+        if(i%2==0){
             num=0;
         }else{
            num=1;
