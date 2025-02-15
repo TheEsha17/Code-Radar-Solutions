@@ -5,7 +5,7 @@ int main() {
     if (a == 0) {
         printf("No set");
     } else {
-        int lowest_set_bit = num & -num;
+        int lowest_set_bit = a & -a;
         printf("%d", lowest_set_bit);
     }
     return 0;
