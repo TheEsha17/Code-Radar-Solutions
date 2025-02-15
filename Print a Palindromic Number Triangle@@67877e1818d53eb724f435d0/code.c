@@ -5,6 +5,7 @@ int main(){
     for(i=1;i<=a;i++){
         for(j=1;j<=a-i;j++){
          printf(" ");
+        }
         for(j=i;j>=1;j--){
             printf("%d",j);
 
@@ -13,10 +14,8 @@ int main(){
     printf("%d",j);
   }
 
-        }
+        
         printf("\n");
     }
-
-   
     return 0;
 }
